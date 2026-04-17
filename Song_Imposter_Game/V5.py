@@ -5,6 +5,8 @@ def main():
     global n1
     n1 = 0
     while True:
+        # merge the two song filse into 1 file, them give same pool of songs for both imposter and crew, though the song will be made different here by:
+            # Remove first the imposter's song, then remove crew's song, mul it by 3.
         s1 = get_songname('Song_imposter_game_files/songs1.txt')
         s2 = get_songname('Song_imposter_game_files/songs2.txt')
         while len(s1) > 0 and len(s2) > 0:
